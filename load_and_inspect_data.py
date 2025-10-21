@@ -17,8 +17,6 @@ def load_and_inspect_data(filepath):
     return df
 
 
-# Load and inspect iris dataset
 iris_df = load_and_inspect_data('Data/iris.csv')
 
-# Load and inspect diabetes dataset
 diabetes_df = load_and_inspect_data('Data/diabetes.csv')
